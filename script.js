@@ -16,7 +16,7 @@ const getStudentAverages = async () =>
 						average: average.toFixed(2);
 					};
 				});
-			console.log(studentsWithAverrages)
+			    console.log(studentsWithAverrages)
 		} catch (error) {
 			console.log(error);
 		}
